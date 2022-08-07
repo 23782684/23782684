@@ -1,0 +1,132 @@
+Circuit: * C:\EDesign344\GitRepo\LTSpice\E344_23782684_A2\LTSpice - Template\E344_23782684_A2.asc
+
+Limiting rise time of source v3 to 0.0003
+Limiting fall time of source v3 to 0.0003
+Limiting rise time of source v6 to 0.00232
+Limiting fall time of source v6 to 0.00232
+Limiting rise time of source v5 to 5e-005
+Limiting fall time of source v5 to 5e-005
+Limiting rise time of source v12 to 0.0006
+Limiting fall time of source v12 to 0.0006
+WARNING: Less than two connections to node 5V.  This node is used by RSENSE5V.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+vernier = 0.5
+vernier = 0.25
+Gmin = 8.67156e-007
+vernier = 0.333333
+vernier = 0.166667
+vernier = 0.222222
+Gmin = 5.93355e-007
+vernier = 0.111111
+vernier = 0.0555555
+vernier = 0.074074
+Gmin = 5.5327e-007
+vernier = 0.0987653
+vernier = 0.0493827
+Gmin = 4.7489e-007
+vernier = 0.0658435
+vernier = 0.0877914
+Gmin = 4.06101e-007
+vernier = 0.0438957
+vernier = 0.0585276
+Gmin = 3.70791e-007
+vernier = 0.0292638
+vernier = 0.0390184
+Gmin = 3.48936e-007
+vernier = 0.0520245
+vernier = 0.0260122
+vernier = 0.034683
+Gmin = 3.28465e-007
+vernier = 0.046244
+vernier = 0.023122
+Gmin = 3.09195e-007
+vernier = 0.0308293
+vernier = 0.0411057
+Gmin = 2.85982e-007
+vernier = 0.0548076
+vernier = 0.0274038
+Gmin = 2.67127e-007
+vernier = 0.0365384
+vernier = 0.0487178
+vernier = 0.0243589
+Gmin = 2.49701e-007
+vernier = 0.0324786
+vernier = 0.0162393
+Gmin = 2.39793e-007
+vernier = 0.0216524
+vernier = 0.0288698
+vernier = 0.0144349
+Gmin = 2.3038e-007
+vernier = 0.0192465
+Gmin = 2.20637e-007
+vernier = 0.025662
+vernier = 0.012831
+vernier = 0.017108
+Gmin = 2.1437e-007
+vernier = 0.0228107
+vernier = 0.0114053
+Gmin = 2.08651e-007
+vernier = 0.0152071
+vernier = 0.0202762
+vernier = 0.0101381
+Gmin = 2.02924e-007
+vernier = 0.0135174
+vernier = 0.0180232
+Gmin = 1.96468e-007
+vernier = 0.024031
+Gmin = 1.86433e-007
+vernier = 0.0320413
+vernier = 0.0427217
+Gmin = 1.71116e-007
+vernier = 0.0569623
+vernier = 0.0759497
+Gmin = 1.49429e-007
+vernier = 0.101266
+Gmin = 1.20033e-007
+vernier = 0.135022
+vernier = 0.180029
+Gmin = 8.40578e-008
+vernier = 0.240038
+vernier = 0.320051
+Gmin = 4.80765e-008
+vernier = 0.426735
+Gmin = 1.97093e-008
+vernier = 0.568979
+vernier = 0.758639
+Gmin = 4.76237e-009
+vernier = 1
+Gmin = 5.93178e-010
+Gmin = 6.3692e-011
+Gmin = 6.83888e-012
+Gmin = 7.34319e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Sun Aug 07 15:10:41 2022
+Total elapsed time: 3.788 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 300926
+traniter = 297746
+tranpoints = 148742
+accept = 102338
+rejected = 46404
+matrix size = 36
+fillins = 57
+solver = Normal
+Thread vector: 7.4/3.9[3] 8.0/4.6[3] 0.9/0.8[2] 0.2/1.2[1]  2592/500
+Matrix Compiler1: 5.57 KB object code size  3.3/2.2/[1.1]
+Matrix Compiler2: off  [0.3]/0.5/0.7
+
