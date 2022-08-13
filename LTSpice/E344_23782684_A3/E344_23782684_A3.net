@@ -1,0 +1,29 @@
+* C:\Users\camer\Downloads\LTSpice - Template\LTSpice - Template\E344_23782684_A3.asc
+V5 N001 0 5
+RSense5V N001 5V 1µ
+V1 b0 0 PWL file=b0PWL.csv
+V2 b1 0 PWL file=b1PWL.csv
+V3 b2 0 PWL file=b2PWL.csv
+V4 b3 0 PWL file=b3PWL.csv
+R3 SpeedCmd_analog 0 100k
+XU1 N003 N002 5V 0 SpeedCmd_analog LTC6078
+R1 N002 b0 160k
+R2 N002 b1 80k
+R4 N002 b2 40k
+R5 N002 b3 20k
+R6 SpeedCmd_analog N002 9k
+R7 N003 0 180k
+R8 N003 5V 330k
+* Don't change these -- used for auto-assessments.\nYou may modify the input files (.txt and .csv) \n               while developing.\nFor submission: \n  * Only one label name per net name\n  * Use only 5V for power
+* =============================\nREPLACE WITH YOUR DETAILS\nC. Oosthuysen., 23782684\n=============================
+* =============================\nIncludes (don't fiddle with this!!)\n=============================
+* =======================================\nYour circuit goes here, these are just placeholders.\n=======================================
+* PLEASE WAIT FOR YOUR SIMULATION TO FINISH BEFORE SUBMITTING.
+.tran 0 {transtop} 0
+.include A3cfg.txt
+* 5V supply
+* 4-bit 3.3V\ntorque command\n(input to your circuit)
+* Analogue speed command\n(output from your circuit)
+.lib LTC5.lib
+.backanno
+.end
