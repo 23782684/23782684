@@ -1,4 +1,4 @@
-Circuit: * C:\Users\camer\Downloads\Ass4\E344_23782684_A4\LTSpice4b\E344_23782684_A4b.asc
+Circuit: * C:\EDesign344\GitRepo\LTSpice\E344_23782684_A4\LTSpice4b\E344_23782684_A4b.asc
 
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
@@ -9,8 +9,8 @@ Limiting fall time of source v3 to 0.003
 WARNING: Less than two connections to node 5V.  This node is used by RSENSE5V.
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Aug 21 19:42:42 2022
-Total elapsed time: 0.190 seconds.
+Date: Fri Aug 26 21:34:37 2022
+Total elapsed time: 0.301 seconds.
 
 tnom = 27
 temp = 27
@@ -23,6 +23,6 @@ rejected = 4385
 matrix size = 19
 fillins = 2
 solver = Normal
-Matrix Compiler1: 906 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: off  [0.1]/0.1/0.1
+Matrix Compiler1: 906 bytes object code size  0.4/0.3/[0.3]
+Matrix Compiler2: off  [0.3]/0.3/0.3
 
