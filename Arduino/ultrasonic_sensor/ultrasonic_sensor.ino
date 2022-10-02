@@ -1,3 +1,14 @@
+#include "BluetoothSerial.h"
+#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
+#error Bluetooth is not enabled! Please run 'make menuconfig' to and enable it
+#endif
+
+#if !defined(CONFIG_BT_SPP_ENABLED)
+#error Serial Bluetooth not available or not enabled. It is only available for the ESP32 chip.
+#endif
+
+BluetoothSerial SerialBT;
+
 //RIGHT WHEEL
 const int ledPin = 23;
 const int freq = 16;
@@ -34,6 +45,8 @@ float voltage=0;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200); // uart setup
+  SerialBT.begin("Machine");
+  Serial.println("The device started, you may now pair it with bluetooth");
   pinMode(LED,OUTPUT); //set up pin 2 as output
   
   pinMode(echoPin, INPUT);
@@ -71,7 +84,7 @@ void loop() {
     diff=3.3;
   }
   ledcWrite(motorChannel, (diff/3.3) * 65536);
-//    Serial.print("Distance (cm): ");
+ //   Serial.print("Distance (cm): ");
 //  Serial.println(distanceCM);
 //    Serial.println(dac3);
 //      Serial.println(dac2);
