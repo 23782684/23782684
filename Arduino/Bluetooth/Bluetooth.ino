@@ -129,7 +129,7 @@ void cmdStateMachine()
                 txBuffer[2] = (char)(returnValue&0xff);
                 txBuffer[3] = (char)((returnValue>>8)&0xff);
               break;
-            case prot_get_rightWheelNibble: 
+            case prot_get_rightWheelNibble:   
                 txBuffer[1] = prot_len_rightWheelNibble; //length of response
                 returnValue = rightWheelSpeed; 
                 txBuffer[2] = returnValue;
